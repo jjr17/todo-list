@@ -1,0 +1,115 @@
+.container {
+  width: 50rem;
+  height: 50rem;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 2rem 2rem;
+}
+
+input.text {
+  width: 20rem;
+  height: 2.5rem;
+
+  padding: 0.4rem;
+  border: 0;
+  border-radius: 0.3rem;
+  outline: none;
+
+  font-size: 1.2rem;
+}
+
+input.text:focus {
+  outline: 1.5px solid #dc2626;
+}
+
+button {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  margin-left: 1rem;
+
+  border: 0;
+  border-radius: 0.3rem;
+
+  background: #689F38;
+
+  font-size: 1rem; 
+
+  transition: 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+.lista {
+  width: 30rem;
+  height: 50rem;
+
+  margin: 2rem auto;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 2rem 25rem 1rem;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 1.7rem;
+
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+
+  padding: 0.5rem;
+
+  height: 3rem;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  margin-top: 0.8rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+
+  border-radius: 0.4rem;
+
+  background: #b91c1c;
+  color: #fafaf9;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background: #16a34a;
+}
+
+button.delete {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+
+  border: 0;
+  border-radius: 0.3rem;
+
+  background: #FF7043;
+
+  font-size: 1rem; 
+
+  transition: 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
